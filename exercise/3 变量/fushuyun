@@ -1,0 +1,6 @@
+#定义两个变量分别为美元和汇率,通过搜索引擎找到美元兑人民币汇率
+dollar=100
+exchange_rate=0.1414
+
+#使用Python计算100美元兑换的人民币数量并用print( )进行输出
+print(dollar*exchange_rate)
