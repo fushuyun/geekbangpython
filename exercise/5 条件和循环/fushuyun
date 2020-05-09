@@ -1,0 +1,52 @@
+#练习一 条件语句的使用
+#使用if语句判断字符串的长度是否等于10，根据判断结果进行不同的输出
+length =10
+if length ==10:
+    print('Length equal to ten. ')
+else:
+    print('The length is not equal to ten!')
+
+
+'''提示用户输入一个1-40之间的数字，使用if语句根据输入数字的大小进行判断，如果输入的数字在 1-10，11-20，21-30，31-40，分别进行不同的输出
+age=int(input('\n请输入一个1-40之间的数字：'))'''
+if  1<age<=10:
+    print('你是个孩子！')
+if  10<age<=20:
+    print('你是个少年人！')
+if  20<age<=30:
+    print('你是个年青人！')
+if  30<age<=40:
+    print('你是个壮年人！')
+if 1>age or age>40:
+    print('请输入正确的数字！')
+
+
+#练习二 循环语句的使用
+#使用for语句输出1-100之间的所有偶数:
+age=[]
+for i in  range(1,100):
+    if(i%2==0):
+        age.append (i)
+print (age)
+
+
+
+#使用while语句输出1-100之间能够被3整除的数字:
+age=1
+while age <= 100:
+    if age%3==0
+        print(age)
+    age=age+1
+for n in range(1,100):
+    while n
+
+
+
+#计算1到10所有偶数的平方:
+age=[]
+for  in  range(1,10):
+    if(i%2==0):
+        age.append (i**2)
+print (age)
+
+
